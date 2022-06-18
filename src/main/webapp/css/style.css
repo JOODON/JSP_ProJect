@@ -91,3 +91,7 @@ header{
 .join{
     margin-left: 5px;
 }
+a{
+    text-decoration-line:none;
+    color:#B5B5B5;
+}
