@@ -38,9 +38,13 @@
             justify-content: center;
             margin-top: 20px;
         }
-        container{
+        .container{
             border: 1px solid #B5B5B5;
             border-radius: 14px;
+            width: 500px;
+            height: 350px;
+            margin: auto;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -51,7 +55,7 @@
 <div class="user">
     <h1 class="set_user">회원가입</h1>
 </div>
-<container>
+<div class="container">
 <form>
     <div id="id">
         <input type="text" value="아이디" id="idinput">
@@ -69,6 +73,6 @@
         <input type="text" value="이메일"id="mailinput">
     </div>
 </form>
-</container>
+</div>
 </body>
 </html>
